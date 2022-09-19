@@ -4,17 +4,23 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilos/estilos.css">
         <title>Dibujando con Canvas</title>
     </head>
     <body>
         <h1>Dibujo en  canvas</h1>
         <p>
-            Cuantas lineas quieres:
+            Ingresa las lineas que quieras:
             <input type="text" id="texto_lineas">
             <input type="button" value="A darle!" id="boton"> 
+            <!--Boton para limpiar el lienzo-->
+            <input type="button" value="Limpiar Lienzo" id="boton_limpiar"> <br><br>
+            Ingresa las lineas que quieras:
+            <input type="text" id="texto_lineas2">
+            <input type="button" value="A darle!" id="boton2"> 
         </p>
         <canvas width="300" height="300" id="dibujito"></canvas>
-        <p>Asi quedo mi dibujo</p>
+        <p>Asi quedó mi dibujo</p>
         <script src="js/dibujo.js"></script>
     </body>
 </html>
